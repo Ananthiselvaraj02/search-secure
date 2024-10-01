@@ -1,0 +1,145 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4A90E2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure footer sticks to bottom */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+    width: 100%;
+    position: relative;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* About Page Styles */
+.about-hero {
+    background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+}
+
+/* Increased space for the content */
+.about-content {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px; /* Added padding for more space inside the content */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.about-content ul li strong {
+    color: #4A90E2;
+}
+
+.about-info, .about-values, .about-story {
+    margin-bottom: 40px;
+}
+
+/* Ensure full page height and proper footer placement */
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
